@@ -66,5 +66,4 @@ def webhook():
 if __name__ == '__main__':
     app.run()
 
-
 # https://seu-dominio.com/webhook
