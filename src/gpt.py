@@ -59,7 +59,6 @@ def webhook():
     # Obter a solicitação do webhook do Twilio
     body = request.values
 
-    # Processar a mensagem usando o ChatGPT
     process_message(body)
 
     return jsonify({'success': True})
